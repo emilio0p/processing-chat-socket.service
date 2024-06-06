@@ -13,11 +13,7 @@ io.on('connection', (socket) => {
     socket.on('joinRoom', () => {
       const userId = socket.handshake.query.userId;
       const roomId = socket.handshake.query.roomId;
-
       
-
-      // Send welcome message to the room
-      socket.emit('welcome', `Bienvenido a la sala ${roomId} usuario con id:${userId}`);
       socket.join(roomId);
 
       connectedUsers.set(socket.id, {idUserConectado: userId, roomIdConectado: roomId });
