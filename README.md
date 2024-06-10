@@ -11,8 +11,6 @@ Este proyecto es un servidor de chat en tiempo real utilizando Express y Socket.
 - [API de Socket.IO](#api-de-socketio)
 - [Función Auxiliar](#función-auxiliar)
 - [Configuración del Puerto](#configuración-del-puerto)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ## Características
 
